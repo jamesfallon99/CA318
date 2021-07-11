@@ -1,0 +1,6 @@
+uses a heuristic
+-current depth + heuristic evaluation(the amount of tiles away from the goal in the 8 puzzel game)
+-scores each node on the open list
+-chooses the smallest item on the open list
+-can find a goal fairly quickly
+-big improvement over breath first seach and depth first search
